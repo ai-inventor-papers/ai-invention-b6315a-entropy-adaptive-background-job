@@ -1,0 +1,45 @@
+{
+  "type": "panel",
+  "title": "Ablation Analysis",
+  "aspect": "16:9",
+  "ncols": 2,
+  "panel_labels": false,
+  "panels": [
+    {
+      "type": "bar",
+      "title": "CV Reduction",
+      "ylabel": "CV Reduction (%)",
+      "ylim": [0, 30],
+      "categories": [
+        "Baseline",
+        "Entropy-only",
+        "Momentum-only",
+        "Entropy-Adaptive"
+      ],
+      "series": [
+        {
+          "label": "CV Reduction",
+          "values": [0, 18.1, 11.5, 23.5]
+        }
+      ]
+    },
+    {
+      "type": "bar",
+      "title": "P95 Improvement",
+      "ylabel": "P95 Improvement (%)",
+      "ylim": [0, 15],
+      "categories": [
+        "Baseline",
+        "Entropy-only",
+        "Momentum-only",
+        "Entropy-Adaptive"
+      ],
+      "series": [
+        {
+          "label": "P95 Improvement",
+          "values": [0, 7.1, 4.0, 11.4]
+        }
+      ]
+    }
+  ]
+}

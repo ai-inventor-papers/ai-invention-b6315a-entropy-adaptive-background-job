@@ -1,0 +1,19 @@
+{
+  "type": "bar",
+  "title": "Foreground P95 Latency Improvement",
+  "xlabel": "Scheduler",
+  "ylabel": "P95 Latency (ms)",
+  "aspect": "16:9",
+  "categories": [
+    "Baseline",
+    "Entropy-only",
+    "Momentum-only",
+    "Entropy-Adaptive"
+  ],
+  "series": [
+    {
+      "values": [152.3, 141.5, 146.2, 134.9],
+      "errors": [3.2, 2.8, 3.1, 2.4]
+    }
+  ]
+}

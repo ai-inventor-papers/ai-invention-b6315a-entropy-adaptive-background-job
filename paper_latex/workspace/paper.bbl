@@ -1,0 +1,48 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Balaji et~al.(2019)Balaji, Kumar, and Rao]{Balaji2019}
+M.~Balaji, C.~Kumar, and G.~V. Rao.
+\newblock Non-linear analysis of bursty workloads using dual metrics for better
+  cloud resource management.
+\newblock In \emph{Journal of Ambient Intelligence and Humanized Computing},
+  volume~10, pages 4977 -- 4992, 2019.
+\newblock \doi{10.1007/s12652-019-01183-8}.
+
+\bibitem[Bodik et~al.(2010)Bodik, Goldszmidt, Fox, Woodard, and
+  Kiciman]{Bodik2010}
+A.~Bodik, M.~Goldszmidt, A.~Fox, D.~B. Woodard, and J.~Kiciman.
+\newblock Characterizing, modeling, and generating workload spikes.
+\newblock In \emph{Proceedings of the ACM SOCC}, 2010.
+
+\bibitem[Kraska et~al.(2018)Kraska, Batum, Cusworth, Liu, Meng, and
+  Sun]{Kraska2018}
+Tim Kraska, Paul Batum, Daniel Cusworth, Kai Liu, Xiaochen Meng, and Shenghao
+  Sun.
+\newblock Preact: Predictive resource allocation for bursty workloads, 2018.
+\newblock International Conference on Management of Data.
+
+\bibitem[Palaniappan(2026)]{Palaniappan2026}
+Kathiravan Palaniappan.
+\newblock Driftsched: Adaptive qos-aware scheduling under runtime token drift
+  for multi-tenant gpu inference.
+\newblock \emph{ArXiv}, abs/2606.02982, 2026.
+\newblock \doi{10.48550/arXiv.2606.02982}.
+
+\bibitem[Stankovic(1995)]{Stankovic1995}
+John~A. Stankovic.
+\newblock Feedback control real-time scheduling.
+\newblock \emph{Real-Time Systems}, 8:\penalty0 99--125, 1995.
+
+\bibitem[Wang et~al.(2025)Wang, Jia, Huang, Cao, and Song]{Wang2025}
+Xinbo Wang, Shian Jia, Ziyang Huang, Jing Cao, and Mingli Song.
+\newblock Mixture-of-schedulers: An adaptive scheduling agent as a learned
+  router for expert policies.
+\newblock \emph{ArXiv}, abs/2511.11628, 2025.
+\newblock \doi{10.48550/arXiv.2511.11628}.
+
+\end{thebibliography}

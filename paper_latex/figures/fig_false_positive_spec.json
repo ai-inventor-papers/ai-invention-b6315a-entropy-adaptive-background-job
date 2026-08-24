@@ -1,0 +1,19 @@
+{
+  "type": "bar",
+  "title": "False Positive Rate",
+  "xlabel": "Scheduler",
+  "ylabel": "FPR (%)",
+  "aspect": "16:9",
+  "ylim": [0, 30],
+  "categories": [
+    "Baseline",
+    "Entropy-only",
+    "Momentum-only",
+    "Entropy-Adaptive"
+  ],
+  "series": [
+    {
+      "values": [26.0, 21.5, 11.5, 7.0]
+    }
+  ]
+}
