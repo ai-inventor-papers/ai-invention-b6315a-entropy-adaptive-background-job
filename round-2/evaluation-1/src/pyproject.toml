@@ -1,0 +1,10 @@
+[project]
+name = "entropy-scheduling-eval"
+version = "0.1.0"
+description = "Entropy-adaptive scheduling evaluation"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy==2.5.2",
+    "scipy==1.18.1",
+    "loguru==0.7.3",
+]
