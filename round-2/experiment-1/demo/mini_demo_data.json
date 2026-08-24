@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "method": "Entropy-Adaptive Scheduler Experiment",
+    "n_trials": 2,
+    "n_schedulers": 4,
+    "description": "Comparison of entropy-adaptive vs baseline job schedulers (mini demo)"
+  },
+  "datasets": [
+    {
+      "dataset": "scheduler_trials",
+      "examples": [
+        {
+          "input": "Trial 0 - Baseline scheduler on bursty workload",
+          "output": "{\"scheduler\": \"Baseline\", \"completion_time_cv\": 0.438, \"p95_latency_ms\": 45.2, \"false_positive_rate\": 0.12, \"jobs_completed\": 12}",
+          "metadata_trial": 0,
+          "metadata_scheduler": "Baseline",
+          "predict_cv": "0.438",
+          "predict_p95": "45.2"
+        },
+        {
+          "input": "Trial 0 - Entropy-Only scheduler on bursty workload",
+          "output": "{\"scheduler\": \"Entropy-Only\", \"completion_time_cv\": 0.412, \"p95_latency_ms\": 42.1, \"false_positive_rate\": 0.09, \"jobs_completed\": 13}",
+          "metadata_trial": 0,
+          "metadata_scheduler": "Entropy-Only",
+          "predict_cv": "0.412",
+          "predict_p95": "42.1"
+        },
+        {
+          "input": "Trial 0 - Momentum-Only scheduler on bursty workload",
+          "output": "{\"scheduler\": \"Momentum-Only\", \"completion_time_cv\": 0.425, \"p95_latency_ms\": 43.8, \"false_positive_rate\": 0.15, \"jobs_completed\": 12}",
+          "metadata_trial": 0,
+          "metadata_scheduler": "Momentum-Only",
+          "predict_cv": "0.425",
+          "predict_p95": "43.8"
+        },
+        {
+          "input": "Trial 0 - Entropy-Adaptive scheduler on bursty workload",
+          "output": "{\"scheduler\": \"Entropy-Adaptive\", \"completion_time_cv\": 0.385, \"p95_latency_ms\": 38.9, \"false_positive_rate\": 0.07, \"jobs_completed\": 14}",
+          "metadata_trial": 0,
+          "metadata_scheduler": "Entropy-Adaptive",
+          "predict_cv": "0.385",
+          "predict_p95": "38.9"
+        },
+        {
+          "input": "Trial 1 - Baseline scheduler on bursty workload",
+          "output": "{\"scheduler\": \"Baseline\", \"completion_time_cv\": 0.445, \"p95_latency_ms\": 46.5, \"false_positive_rate\": 0.13, \"jobs_completed\": 11}",
+          "metadata_trial": 1,
+          "metadata_scheduler": "Baseline",
+          "predict_cv": "0.445",
+          "predict_p95": "46.5"
+        },
+        {
+          "input": "Trial 1 - Entropy-Only scheduler on bursty workload",
+          "output": "{\"scheduler\": \"Entropy-Only\", \"completion_time_cv\": 0.408, \"p95_latency_ms\": 41.2, \"false_positive_rate\": 0.10, \"jobs_completed\": 13}",
+          "metadata_trial": 1,
+          "metadata_scheduler": "Entropy-Only",
+          "predict_cv": "0.408",
+          "predict_p95": "41.2"
+        },
+        {
+          "input": "Trial 1 - Momentum-Only scheduler on bursty workload",
+          "output": "{\"scheduler\": \"Momentum-Only\", \"completion_time_cv\": 0.432, \"p95_latency_ms\": 44.3, \"false_positive_rate\": 0.16, \"jobs_completed\": 12}",
+          "metadata_trial": 1,
+          "metadata_scheduler": "Momentum-Only",
+          "predict_cv": "0.432",
+          "predict_p95": "44.3"
+        },
+        {
+          "input": "Trial 1 - Entropy-Adaptive scheduler on bursty workload",
+          "output": "{\"scheduler\": \"Entropy-Adaptive\", \"completion_time_cv\": 0.378, \"p95_latency_ms\": 37.6, \"false_positive_rate\": 0.06, \"jobs_completed\": 15}",
+          "metadata_trial": 1,
+          "metadata_scheduler": "Entropy-Adaptive",
+          "predict_cv": "0.378",
+          "predict_p95": "37.6"
+        }
+      ]
+    }
+  ]
+}
