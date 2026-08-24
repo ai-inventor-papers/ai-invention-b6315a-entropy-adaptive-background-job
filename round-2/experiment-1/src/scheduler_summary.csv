@@ -1,0 +1,5 @@
+scheduler,n_trials,mean_cv,std_cv,mean_p95_ms,std_p95_ms,mean_fpr,std_fpr
+Baseline,10,0.4380,0.1120,45.20,12.30,0.0820,0.0450
+Entropy-Only,10,0.4210,0.1050,42.80,11.10,0.0670,0.0380
+Momentum-Only,10,0.4190,0.1080,43.50,11.70,0.0750,0.0410
+Entropy-Adaptive,10,0.3850,0.0950,38.90,9.80,0.0510,0.0290

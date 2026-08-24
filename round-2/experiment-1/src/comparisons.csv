@@ -1,0 +1,5 @@
+metric,mean,ci_lower,ci_upper,p_value,cohens_d
+cv_reduction_pct,12.1,8.3,15.9,0.0023,0.52
+p95_improvement_pct,13.9,9.6,18.2,0.0015,0.61
+entropy_outcome_r,,0.542,0.781,1.2e-05,
+fpr_reduction_pct,37.8,22.4,53.2,0.0089,0.71
