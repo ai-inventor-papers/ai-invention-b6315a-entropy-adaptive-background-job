@@ -19,7 +19,7 @@
 <g><title></title><path d="M 784.0 442.0 C 784.0 480.7, 498.0 489.3, 498.0 528.0" fill="none" stroke="#8b949e" stroke-width="1.6" stroke-opacity="0.8" marker-end="url(#arrow)"/></g>
 <g><title></title><path d="M 498.0 74.0 C 498.0 112.7, 498.0 121.3, 498.0 160.0" fill="none" stroke="#8b949e" stroke-width="1.6" stroke-opacity="0.8" marker-end="url(#arrow)"/></g>
 <g><title>uses: design specification</title><path d="M 498.0 258.0 C 498.0 296.7, 212.0 305.3, 212.0 344.0" fill="none" stroke="#3b82f6" stroke-width="1.6" stroke-opacity="0.8" marker-end="url(#arrow)"/></g>
-<a href="https://github.com/ai-inventor-outputs/ai-invention-b6315a-entropy-adaptive-background-job" target="_top">
+<a href="https://github.com/ai-inventor-papers/ai-invention-b6315a-entropy-adaptive-background-job" target="_top">
   <g class="node">
     <rect class="card" x="413.0" y="22.0" width="170" height="52" rx="26"
       fill="#ffffff" stroke="#d0d7de" stroke-width="1" filter="url(#shadow)"/>
@@ -29,7 +29,7 @@
   </g>
 </a>
 <text x="22" y="214.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#8b949e">R1</text>
-<a href="https://github.com/ai-inventor-outputs/ai-invention-b6315a-entropy-adaptive-background-job/tree/main/round-1/research-1" target="_top">
+<a href="https://github.com/ai-inventor-papers/ai-invention-b6315a-entropy-adaptive-background-job/tree/main/round-1/research-1" target="_top">
   <g class="node">
     <title>Entropy-Adaptive Background Job Scheduler: Complete Design Specification</title>
     <rect class="card" x="372.0" y="162.0" width="252" height="96" rx="10"
@@ -46,7 +46,7 @@
 </a>
 <text x="22" y="398.0" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#8b949e">R2</text>
 <line x1="86" y1="302.0" x2="910" y2="302.0" stroke="#d8dee4" stroke-dasharray="3 5"/>
-<a href="https://github.com/ai-inventor-outputs/ai-invention-b6315a-entropy-adaptive-background-job/tree/main/round-2/experiment-1" target="_top">
+<a href="https://github.com/ai-inventor-papers/ai-invention-b6315a-entropy-adaptive-background-job/tree/main/round-2/experiment-1" target="_top">
   <g class="node">
     <title>Entropy-Adaptive Job Scheduler Experiment</title>
     <rect class="card" x="86.0" y="346.0" width="252" height="96" rx="10"
@@ -61,7 +61,7 @@
       fill="#1f2328"><tspan x="100.0" dy="0">Entropy-Adaptive Job Scheduler</tspan><tspan x="100.0" dy="14">Experiment</tspan></text>
   </g>
 </a>
-<a href="https://github.com/ai-inventor-outputs/ai-invention-b6315a-entropy-adaptive-background-job/tree/main/round-2/evaluation-1" target="_top">
+<a href="https://github.com/ai-inventor-papers/ai-invention-b6315a-entropy-adaptive-background-job/tree/main/round-2/evaluation-1" target="_top">
   <g class="node">
     <title>Statistical Analysis &amp; Component Ablation</title>
     <rect class="card" x="372.0" y="346.0" width="252" height="96" rx="10"
@@ -76,7 +76,7 @@
       fill="#1f2328"><tspan x="386.0" dy="0">Statistical Analysis &amp; Component</tspan><tspan x="386.0" dy="14">Ablation</tspan></text>
   </g>
 </a>
-<a href="https://github.com/ai-inventor-outputs/ai-invention-b6315a-entropy-adaptive-background-job/tree/main/round-2/research-1" target="_top">
+<a href="https://github.com/ai-inventor-papers/ai-invention-b6315a-entropy-adaptive-background-job/tree/main/round-2/research-1" target="_top">
   <g class="node">
     <title>Real-world workload traces for entropy-adaptive scheduler validation</title>
     <rect class="card" x="658.0" y="346.0" width="252" height="96" rx="10"
@@ -91,7 +91,7 @@
       fill="#1f2328"><tspan x="672.0" dy="0">Real-world workload traces for</tspan><tspan x="672.0" dy="14">entropy-adaptive scheduler validation</tspan></text>
   </g>
 </a>
-<a href="https://github.com/ai-inventor-outputs/ai-invention-b6315a-entropy-adaptive-background-job/blob/main/paper.pdf" target="_top">
+<a href="https://github.com/ai-inventor-papers/ai-invention-b6315a-entropy-adaptive-background-job/blob/main/paper.pdf" target="_top">
   <g class="node">
     <rect class="card" x="403.0" y="530.0" width="190" height="72" rx="10"
       fill="#ffffff" stroke="#e11d48" stroke-width="1.4" filter="url(#shadow)"/>
