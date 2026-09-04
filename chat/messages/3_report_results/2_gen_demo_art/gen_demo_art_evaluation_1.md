@@ -109,8 +109,8 @@ out_demo_files:
 </artifact_info>
 
 <github_repo>
-Repo URL: https://github.com/ai-inventor-outputs/ai-invention-b6315a-entropy-adaptive-background-job
-Raw data URL: https://raw.githubusercontent.com/ai-inventor-outputs/ai-invention-b6315a-entropy-adaptive-background-job/main/round-2/evaluation-1/demo/mini_demo_data.json
+Repo URL: https://github.com/ai-inventor-papers/ai-invention-b6315a-entropy-adaptive-background-job
+Raw data URL: https://raw.githubusercontent.com/ai-inventor-papers/ai-invention-b6315a-entropy-adaptive-background-job/main/round-2/evaluation-1/demo/mini_demo_data.json
 
 URLs won't work yet — files pushed to GitHub AFTER notebook creation.
 Use local fallback pattern so notebook works locally (now) and in Colab (after deployment).
@@ -131,7 +131,7 @@ Follow the aii-colab skill exactly. It has the install cell pattern, pre-install
 `mini_demo_data.json` = curated subset for the demo.
 Use this pattern for Colab compatibility (GitHub URL with local fallback):
 ```python
-GITHUB_DATA_URL = "https://raw.githubusercontent.com/ai-inventor-outputs/ai-invention-b6315a-entropy-adaptive-background-job/main/round-2/evaluation-1/demo/mini_demo_data.json"
+GITHUB_DATA_URL = "https://raw.githubusercontent.com/ai-inventor-papers/ai-invention-b6315a-entropy-adaptive-background-job/main/round-2/evaluation-1/demo/mini_demo_data.json"
 import json, os
 
 def load_data():
@@ -197,7 +197,7 @@ TODO 2. Read demo file and relevant preview_* files (preview only). Understand s
 TODO 3. Create `mini_demo_data.json`: curated subset from at most ONE dataset (no more than 100 diverse examples). CRITICAL: do NOT read/grep full output file — may crash. Use `head -c 5000` or stream first entries with Python to pick examples.
 TODO 4. Create `code_demo.ipynb` via NotebookEdit following <notebook_structure>. Set ALL config parameters to ABSOLUTE MINIMUM values — the smallest that produce any output (e.g. 1 iteration, 2 samples, smallest array sizes). Test-run using <test_environment>. Fix all errors until it passes.
 TODO 5. GRADUALLY SCALE (but don't overdo it): increase config params step by step (e.g. ~2x each round). After each increase: test-run, record runtime, fix errors. STOP SCALING as soon as results look meaningful — a working small-scale demo beats a failed large-scale one. If full original params fit within <max_notebook_total_runtime> (10% margin), use them. Otherwise keep whatever works and comment out the true original values. Do NOT spend more than 2-3 scaling rounds.
-TODO 6. Verify: (1) code_demo.ipynb contains GITHUB_DATA_URL = "https://raw.githubusercontent.com/ai-inventor-outputs/ai-invention-b6315a-entropy-adaptive-background-job/main/round-2/evaluation-1/demo/mini_demo_data.json" exactly, (2) mini_demo_data.json exists, (3) uses GitHub URL pattern not just open('mini_demo_data.json').
+TODO 6. Verify: (1) code_demo.ipynb contains GITHUB_DATA_URL = "https://raw.githubusercontent.com/ai-inventor-papers/ai-invention-b6315a-entropy-adaptive-background-job/main/round-2/evaluation-1/demo/mini_demo_data.json" exactly, (2) mini_demo_data.json exists, (3) uses GitHub URL pattern not just open('mini_demo_data.json').
 </todos>
 
 ---
@@ -421,7 +421,7 @@ Perfect! Now I'll create the TODO list and then generate the notebook and demo d
 ### [32] TOOL CALL — TaskCreate · 2026-08-24 11:56:26 UTC
 
 ```
-{'subject': 'Verify outputs and generate result JSON', 'description': 'TODO 6. Verify: (1) code_demo.ipynb contains GITHUB_DATA_URL = "https://raw.githubusercontent.com/ai-inventor-outputs/ai-invention-b6315a-entropy-adaptive-background-job/main/round-2/evaluation-1/demo/mini_demo_data.json" exactly, (2) mini_demo_data.json exists, (3) uses GitHub URL pattern not just open(\'mini_demo_data.json\'). Output the result as JSON to: `./.terminal_claude_agent_struct_out.json`', 'activeForm': 'Verifying and finalizing'}
+{'subject': 'Verify outputs and generate result JSON', 'description': 'TODO 6. Verify: (1) code_demo.ipynb contains GITHUB_DATA_URL = "https://raw.githubusercontent.com/ai-inventor-papers/ai-invention-b6315a-entropy-adaptive-background-job/main/round-2/evaluation-1/demo/mini_demo_data.json" exactly, (2) mini_demo_data.json exists, (3) uses GitHub URL pattern not just open(\'mini_demo_data.json\'). Output the result as JSON to: `./.terminal_claude_agent_struct_out.json`', 'activeForm': 'Verifying and finalizing'}
 ```
 
 ### [33] TOOL RESULT — TaskCreate · 2026-08-24 11:56:26 UTC
@@ -725,7 +725,7 @@ Perfect! Now let me verify the notebook contains the correct GitHub URL and crea
 ### [52] TOOL CALL — Bash · 2026-08-24 12:00:48 UTC
 
 ```
-grep -c "https://raw.githubusercontent.com/ai-inventor-outputs/ai-invention-b6315a" code_demo.ipynb && echo "✓ GitHub URL found in notebook"
+grep -c "https://raw.githubusercontent.com/ai-inventor-papers/ai-invention-b6315a" code_demo.ipynb && echo "✓ GitHub URL found in notebook"
 ```
 
 ### [53] TOOL RESULT — Bash · 2026-08-24 12:00:48 UTC
@@ -743,7 +743,7 @@ grep "GITHUB_DATA_URL" code_demo.ipynb | grep -o 'https[^"]*'
 ### [55] TOOL RESULT — Bash · 2026-08-24 12:00:50 UTC
 
 ```
-{"stdout": "https://raw.githubusercontent.com/ai-inventor-outputs/ai-invention-b6315a-entropy-adaptive-background-job/main/round-2/evaluation-1/demo/mini_demo_data.json\\", "stderr": "", "interrupted": false, "isImage": false, "noOutputExpected": false}
+{"stdout": "https://raw.githubusercontent.com/ai-inventor-papers/ai-invention-b6315a-entropy-adaptive-background-job/main/round-2/evaluation-1/demo/mini_demo_data.json\\", "stderr": "", "interrupted": false, "isImage": false, "noOutputExpected": false}
 ```
 
 ### [56] ASSISTANT · 2026-08-24 12:00:54 UTC
@@ -802,7 +802,7 @@ echo "✓ All files verified!"
 ### [61] TOOL RESULT — Bash · 2026-08-24 12:01:00 UTC
 
 ```
-{"stdout": "=== VERIFICATION ===\n1. Notebook file:\n-rw-r--r-- 1 root root 31K Aug 24 11:58 code_demo.ipynb\n\n2. Demo data file:\n-rw-r--r-- 1 root root 7.4K Aug 24 11:56 mini_demo_data.json\n\n3. Output JSON:\n{\n  \"out_expected_files\": {\n    \"notebook\": \"code_demo.ipynb\",\n    \"mini_data_file\": \"mini_demo_data.json\"\n  }\n}\n\n4. Checking notebook has GitHub URL pattern:\n    \"GITHUB_DATA_URL = \\\"https://raw.githubusercontent.com/ai-inventor-outputs/ai-invention-b6315a-entropy-adaptive-background-job/main/round-2/evaluation-1/demo/mini_demo_data.json\\\"\\n\",\n\n5. Checking data file has expected structure:\n  - metadata: 5 fields\n  - metrics_agg: 69 metrics\n  - examples: 5 trials\n\n✓ All files verified!", "stderr": "", "interrupted": false, "isImage": false, "noOutputExpected": false}
+{"stdout": "=== VERIFICATION ===\n1. Notebook file:\n-rw-r--r-- 1 root root 31K Aug 24 11:58 code_demo.ipynb\n\n2. Demo data file:\n-rw-r--r-- 1 root root 7.4K Aug 24 11:56 mini_demo_data.json\n\n3. Output JSON:\n{\n  \"out_expected_files\": {\n    \"notebook\": \"code_demo.ipynb\",\n    \"mini_data_file\": \"mini_demo_data.json\"\n  }\n}\n\n4. Checking notebook has GitHub URL pattern:\n    \"GITHUB_DATA_URL = \\\"https://raw.githubusercontent.com/ai-inventor-papers/ai-invention-b6315a-entropy-adaptive-background-job/main/round-2/evaluation-1/demo/mini_demo_data.json\\\"\\n\",\n\n5. Checking data file has expected structure:\n  - metadata: 5 fields\n  - metrics_agg: 69 metrics\n  - examples: 5 trials\n\n✓ All files verified!", "stderr": "", "interrupted": false, "isImage": false, "noOutputExpected": false}
 ```
 
 ### [62] ASSISTANT · 2026-08-24 12:01:02 UTC
